@@ -16,7 +16,7 @@ namespace Taschenrechner
             Console.Write("Bitte gib den zweiten Summanden ein: ");
             string zweiterSummand = Console.ReadLine();
 
-            // Wandel Text in Gleikommazahlen
+            // Wandel Text in Gleitkommazahlen
             double ersterSummandAlsZahl = Convert.ToDouble(ersterSummand);
             double zweiterSummandAlsZahl = Convert.ToDouble(zweiterSummand);
 
